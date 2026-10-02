@@ -6,7 +6,7 @@ A sleek, responsive weather application built with HTML5, CSS3, and JavaScript t
 
 ## 🚀 Live Demo
 
-Check out: [https://your-username.github.io/weather-app/](https://your-username.github.io/weather-app/)
+Check out: https://mrsulemankurrey25.github.io/Weather-App/
 
 ---
 
