@@ -2,14 +2,11 @@
 
 A sleek, responsive weather application built with HTML5, CSS3, and JavaScript that provides real-time weather forecasts, temperature trends, and atmospheric details for any location worldwide.
 
-![App Screenshot/Banner](![Uploading image.png…]()
-) <!-- Replace with your actual screenshot link -->
-
 ---
 
 ## 🚀 Live Demo
 
-Check out the live deployment here: [https://your-username.github.io/weather-app/](https://your-username.github.io/weather-app/)
+Check out: [https://your-username.github.io/weather-app/](https://your-username.github.io/weather-app/)
 
 ---
 
@@ -25,7 +22,7 @@ Check out the live deployment here: [https://your-username.github.io/weather-app
 ## 🛠️ Built With
 
 * **Frontend:** HTML5, CSS3 (Flexbox/Grid), JavaScript
-* **API:** [OpenWeatherMap API](https://openweathermap.org/) (or specify your API provider)
+* **API:** [OpenWeatherMap API](https://api.open-meteo.com)
 * **Icons:** FontAwesome / Lucide Icons
 
 ---
@@ -37,6 +34,6 @@ weather-app/
 │
 ├── index.html       # Main HTML structure
 ├── style.css        # Custom styling and animations
-├── script.js      # API fetching, DOM manipulation, and logic
+├── script.js        # API fetching, DOM manipulation, and logic
 ├── assets/          # Images, icons, and background graphics
 └── README.md        # Project documentation
