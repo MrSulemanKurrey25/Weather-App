@@ -22,7 +22,7 @@ Check out: https://realtime-weatherwebapp.netlify.app/
 ## 🛠️ Built With
 
 * **Frontend:** HTML5, CSS3 (Flexbox/Grid), JavaScript
-* **API:** [https://api.open-meteo.com]
+* **API:** https://api.open-meteo.com
 * **Icons:** FontAwesome / Lucide Icons
 
 ---
