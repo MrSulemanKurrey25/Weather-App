@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Time Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="logo">🌤️</div>
+            <h1>Weather App</h1>
+            <p>Real-time weather around the world</p>
+        </header>
+        
+        <div class="search-box">
+            <input type="text" id="cityInput" placeholder="Search city... e.g. Addis Ababa" autocomplete="off">
+            <button onclick="searchWeather()">🔍 Search</button>
+        </div>
+
+        <div class="error" id="error"></div>
+        
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Loading weather...</p>
+        </div>
+
+        <main class="weather-card" id="weatherCard">
+            <div class="location">
+                <h2 id="cityName">Addis Ababa</h2>
+                <p id="countryName">Ethiopia</p>
+            </div>
+
+            <div class="current">
+                <div class="weather-icon" id="weatherIcon">☀️</div>
+                <div class="temperature">
+                    <span id="temperature">--</span>°<span id="unit">C</span>
+                </div>
+                <div class="condition" id="condition">Loading...</div>
+                <div class="feels">Feels like <span id="feelsLike">--</span>°</div>
+            </div>
+
+            <div class="units">
+                <button class="unit-btn active" id="celsiusBtn" onclick="changeUnit('C')">°C</button>
+                <button class="unit-btn" id="fahrenheitBtn" onclick="changeUnit('F')">°F</button>
+            </div>
+
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-icon">💧</div>
+                    <strong id="humidity">--%</strong>
+                    <span>Humidity</span>
+                </div>
+                <div class="stat">
+                    <div class="stat-icon">💨</div>
+                    <strong><span id="wind">--</span> km/h</strong>
+                    <span>Wind Speed</span>
+                </div>
+                <div class="stat">
+                    <div class="stat-icon">🌡️</div>
+                    <strong id="apparent">--°</strong>
+                    <span>Feels Like</span>
+                </div>
+            </div>
+
+            <h3 class="forecast-title">5-Day Forecast</h3>
+            <div class="forecast" id="forecast"></div>
+        </main>
+
+        <footer class="footer">
+            Powered by Open-Meteo Weather API
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
