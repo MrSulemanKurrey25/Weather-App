@@ -22,7 +22,7 @@ Check out: [https://your-username.github.io/weather-app/](https://your-username.
 ## 🛠️ Built With
 
 * **Frontend:** HTML5, CSS3 (Flexbox/Grid), JavaScript
-* **API:** [OpenWeatherMap API](https://api.open-meteo.com)
+* **API:** [https://api.open-meteo.com]
 * **Icons:** FontAwesome / Lucide Icons
 
 ---
